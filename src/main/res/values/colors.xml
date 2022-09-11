@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#90CAF9</color>
+    <color name="green">#00FF00</color>
+    <color name="red">#FF0000</color>
+    <color name="background">#1E88E5</color>
+    <color name="blueOne">#E3F2FD</color>
+    <color name="blueTwo">#BBDEFB</color>
+    <color name="blueThree">#90CAF9</color>
+    <color name="blueFour">#64B5F6</color>
+    <color name="blueFive">#42A5F5</color>
+    <color name="blueSix">#2196F3</color>
+    <color name="blueSeven">#1976D2</color>
+    <color name="blueEight">#1565C0</color>
+    <color name="blueNine">#0D47A1</color>
+    <color name="orangeOne">#FFF3E0</color>
+    <color name="orangeTwo">#FFE0B2</color>
+    <color name="orangeThree">#FFCC80</color>
+    <color name="orangeFour">#FFB74D</color>
+    <color name="orangeFive">#FFA726</color>
+    <color name="orangeSix">#FF9800</color>
+    <color name="orangeSeven">#FB8C00</color>
+    <color name="orangeEight">#F57C00</color>
+    <color name="orangeNine">#EF6C00</color>
+    <color name="orangeTen">#E65100</color>
+</resources>

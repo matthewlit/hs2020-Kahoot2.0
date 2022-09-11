@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kahoot 2.0</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_my_quizzes">MyQuizzes</string>
+    <string name="title_activity_create_screen">CreateScreen</string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/questionNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question #1"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5">
+
+        <EditText
+            android:id="@+id/textViewQuestionPrompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="8dp"
+            android:hint="Prompt" />
+
+        <EditText
+            android:id="@+id/textViewShortAnswerAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewQuestionPrompt"
+            android:layout_marginLeft="16dp"
+            android:hint="Answer" />
+
+        <EditText
+            android:id="@+id/textViewMCAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewQuestionPrompt"
+            android:layout_marginLeft="16dp"
+            android:hint="Answer" />
+
+        <EditText
+            android:id="@+id/textViewMCAnswerOther1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewMCAnswer"
+            android:layout_marginLeft="16dp"
+            android:hint="Wrong Answer" />
+
+        <EditText
+            android:id="@+id/textViewMCAnswerOther2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewMCAnswerOther1"
+            android:layout_marginLeft="16dp"
+            android:hint="Wrong Answer" />
+
+        <EditText
+            android:id="@+id/textViewMCAnswerOther3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewMCAnswerOther2"
+            android:layout_marginLeft="16dp"
+            android:hint="Wrong Answer" />
+
+        <Button
+            android:id="@+id/ButtonTandFTrue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewQuestionPrompt"
+            android:layout_marginLeft="16dp"
+            android:text="True"
+            android:background="@color/green"/>
+
+        <Button
+            android:id="@+id/ButtonTandFFalse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewQuestionPrompt"
+            android:layout_marginLeft="16dp"
+            android:layout_toEndOf="@id/ButtonTandFTrue"
+            android:text="False"
+            android:background="@color/red"/>
+    </RelativeLayout>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_delete_black_24dp"
+        android:scaleType="centerCrop"
+        android:background="#FFFFFF"
+        android:layout_margin="10dp"
+        android:id="@+id/delete"/>
+
+    <View
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/blueSix" />
+</LinearLayout>
